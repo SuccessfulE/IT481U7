@@ -42,7 +42,7 @@ namespace IT481U7
             /***********
             *Medium Array
             ***********/
-            //Creating small integer array(1000)
+            //Creating medium integer array(1,000)
             int[] mediumArray = getArray(1000, 100);
 
             //Deep Copy to array to remove duplicates
@@ -53,14 +53,14 @@ namespace IT481U7
             int[] quickMediumArray = new int[newMediumArray.Length];
             Array.Copy(newMediumArray, 0, quickMediumArray, 0, quickMediumArray.Length);
 
-            //Running small bubble sort
+            //Running medium bubble sort
             size = "medium";
             runSortArray(mediumArray, size, type);
 
             /***********
             *Large Array
             ***********/
-            //Creating small integer array(10,000)
+            //Creating large integer array(10,000)
             int[] largeArray = getArray(10000, 100);
 
             //Deep Copy to array to remove duplicates
@@ -71,16 +71,16 @@ namespace IT481U7
             int[] quickLargeArray = new int[newLargeArray.Length];
             Array.Copy(newLargeArray, 0, quickLargeArray, 0, quickLargeArray.Length);
 
-            //Running small bubble sort
+            //Running large bubble sort
             size = "large";
             runSortArray(largeArray, size, type);
 
             //**********************//
             //Remove duplicate set
 
-            /********
+            /*********
              *Removing duplicates and re-running tests
-             ********/
+             *********/
 
             //Removing small array duplicates
             newSmallArray = onlyUniqueElements(newSmallArray);
