@@ -60,8 +60,8 @@ namespace IT481U7
             /***********
             *Large Array
             ***********/
-            //Creating small integer array(1000)
-            int[] largeArray = getArray(1000, 100);
+            //Creating small integer array(10,000)
+            int[] largeArray = getArray(10000, 100);
 
             //Deep Copy to array to remove duplicates
             int[] newLargeArray = new int[largeArray.Length];
